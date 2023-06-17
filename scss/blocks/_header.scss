@@ -1,0 +1,38 @@
+.header {
+    padding: 46px 0;
+    
+    background-color: $color-bg;
+    @media screen and (max-width:767.98px){
+        padding: 15px 0;
+    }
+}
+
+.navbar-nav {
+    padding-left: 10px !important;
+
+    column-gap: 50px;
+    row-gap: 10px;
+}
+.navbar-toggler {
+    border: none !important;
+    &:focus {
+        box-shadow: none !important;
+    }
+}
+.navbar-collapse {
+    justify-content: flex-end;
+}
+.nav-link {
+    padding: 0 !important;
+
+    font-size: 0.875rem !important;
+    &:last-child {
+        padding-right: 5px !important;
+    }
+    &:hover {
+        color: $color-hover !important;
+    }
+    &--active {
+        color: $color-hover !important;
+    }
+}
